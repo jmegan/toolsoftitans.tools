@@ -1001,7 +1001,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .btn.btn-just-icon,
 .navbar .navbar-nav > li > a.btn.btn-just-icon {
   font-size: 20px;
-  padding: 12px 12px;
+  padding: 2px 2px;
   line-height: 1em;
 }
 .btn.btn-just-icon i,
@@ -2202,7 +2202,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 @font-face {
   font-family: "Bernier";
-  src: url('bernierregular-regular.otf') format('opentype');
+  src: url('../fonts/bernierregular-regular.otf') format('opentype');
 }
 .navbar .navbar-brand {
   position: relative;
@@ -3201,6 +3201,7 @@ h2.title {
   margin-top: -30px;
   border-radius: 6px;
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  max-height: 300px;
 }
 .card .card-image img {
   width: 100%;
@@ -3208,7 +3209,7 @@ h2.title {
   border-radius: 6px;
   pointer-events: none;
 }
-.mix .card .card-image .card-title {
+.card .card-image .card-title {
   position: absolute;
   bottom: 15px;
   left: 15px;
