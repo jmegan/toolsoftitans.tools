@@ -11,67 +11,7 @@ html, body {
 /* Controls
 ---------------------------------------------------------------------- */
 
-.section-dark .nav-pills>li>button, .section-image .nav-pills>li>button {
-    color: #999999;
-}
 
-.section-dark .nav-pills>li>button:hover, .section-dark .nav-pills>li>button:focus, .section-image .nav-pills>li>button:hover, .section-image .nav-pills>li>button:focus {
-    background-color: #EEEEEE;
-}
-
-.nav-pills>li>button {
-    line-height: 24px;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 500;
-    min-width: 100px;
-    text-align: center;
-    color: #555555;
-    transition: all .3s;
-}
-
-.nav-pills>li>button:hover {
-    background-color: rgba(200, 200, 200, 0.2);
-}
-
-.nav-pills>li.active>button, .nav-pills>li.active>button:focus, .nav-pills>li.active>button:hover {
-    background-color: #9c27b0;
-    color: #FFFFFF;
-    box-shadow: 0 16px 26px -10px rgba(156, 39, 176, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
-}
-
-.nav-pills:not(.nav-pills-icons)>li>a {
-    border-radius: 30px;
-}
-
-.nav-pills.nav-stacked>li+li {
-    margin-top: 5px;
-}
-
-.nav-pills.nav-pills-info>li.active>button, .nav-pills.nav-pills-info>li.active>button:focus, .nav-pills.nav-pills-info>li.active>button:hover {
-    background-color: #00bcd4;
-    box-shadow: 0 16px 26px -10px rgba(0, 188, 212, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 188, 212, 0.2);
-}
-
-.nav-pills.nav-pills-success>li.active>button, .nav-pills.nav-pills-success>li.active>button:focus, .nav-pills.nav-pills-success>li.active>button:hover {
-    background-color: #4caf50;
-    box-shadow: 0 16px 26px -10px rgba(76, 175, 80, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(76, 175, 80, 0.2);
-}
-
-.nav-pills.nav-pills-warning>li.active>button, .nav-pills.nav-pills-warning>li.active>button:focus, .nav-pills.nav-pills-warning>li.active>button:hover {
-    background-color: #ff9800;
-    box-shadow: 0 16px 26px -10px rgba(255, 152, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(255, 152, 0, 0.2);
-}
-
-.nav-pills.nav-pills-danger>li.active>button, .nav-pills.nav-pills-danger>li.active>button:focus, .nav-pills.nav-pills-danger>li.active>button:hover {
-    background-color: #f44336;
-    box-shadow: 0 16px 26px -10px rgba(255, 152, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(255, 152, 0, 0.2);
-}
-
-.nav-pills.nav-pills-rose>li.active>button, .nav-pills.nav-pills-rose>li.active>button:focus, .nav-pills.nav-pills-rose>li.active>button:hover {
-    background-color: #e91e63;
-    box-shadow: 0 16px 26px -10px rgba(233, 30, 99, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
-}
 
 
 /* Pagination Controls

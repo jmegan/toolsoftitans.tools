@@ -2201,9 +2201,10 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 }
 
 @font-face {
-  font-family: "Bernier";
-  src: url('../fonts/bernierregular-regular.otf') format('opentype');
+  font-family: Bernier;
+  src: url("../fonts/BERNIERRegular-Regular.otf") format('opentype');
 }
+
 .navbar .navbar-brand {
   position: relative;
   height: 50px;
@@ -2213,9 +2214,9 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   font-size:38px;
   
 }
+
 .navbar-brand {
-  font-family: "Bernier", "Roboto", "Helvetica", "Arial", sans-serif;
-  
+  font-family: "Bernier", "Roboto", "Helvetica", "Arial", sans-serif;  
   font-weight:normal;
 }
 .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
