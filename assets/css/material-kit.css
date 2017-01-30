@@ -2205,6 +2205,23 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   src: url("../fonts/bernierregular.otf") format('opentype');
 }
 
+.hero-title{
+  font-family: "Bernier", "Roboto", "Helvetica", "Arial", sans-serif;  
+  font-weight:normal;
+  color: #ffd401;
+  font-size: 9.5em;
+  line-height: 1em;
+  margin-top:0px;
+}
+
+.hero-subtitle{
+  font-family: "Bernier", "Roboto", "Helvetica", "Arial", sans-serif;  
+  font-weight:normal;
+  color: #ffffff;
+  font-size: 6em;
+  line-height: 1em;
+}
+
 .navbar .navbar-brand {
   position: relative;
   height: 50px;
@@ -4676,7 +4693,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .page-header {
-  height: 100vh;
+  height: 80vh;
   background-position: center center;
   background-size: cover;
   margin: 0;
@@ -4687,7 +4704,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
   bottom: 60px;
 }
 .page-header .container {
-  padding-top: 30vh;
+  padding-top: 15vh;
   color: #FFFFFF;
 }
 .page-header .title {
