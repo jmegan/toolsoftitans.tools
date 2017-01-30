@@ -2201,8 +2201,8 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 }
 
 @font-face {
-  font-family: Bernier;
-  src: url("../fonts/BERNIERRegular-Regular.otf") format('opentype');
+  font-family: "Bernier";
+  src: url("../fonts/bernierregular.otf") format('opentype');
 }
 
 .navbar .navbar-brand {
