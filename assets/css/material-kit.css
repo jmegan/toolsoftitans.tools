@@ -149,7 +149,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   padding: 12px 30px;
   margin: 10px 1px;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0;
   will-change: box-shadow, transform;
@@ -2354,8 +2354,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   color: inherit;
 }
 .navbar .btn {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-left: 10px;
 }
 .navbar .btn-link {
   color: inherit;
@@ -2379,11 +2378,11 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 .navbar .navbar-form .form-group .form-control,
 .navbar .navbar-form .form-control {
   border-color: inherit;
-  color: inherit;
   padding: 0;
   margin: 0;
   height: 28px;
   font-size: 14px;
+  font-weight: 300px;
   line-height: 1.42857;
 }
 .navbar, .navbar.navbar-default {
@@ -2677,6 +2676,37 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 .navbar.navbar-transparent .logo-container .brand {
   color: #FFFFFF;
 }
+
+.navbar-grid-transparent {
+  display:none;
+}
+
+.navbar > li > p {
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  padding: 12px 30px;
+  margin: 10px 1px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  will-change: box-shadow, transform;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+border: none;
+  border-radius: 3px;
+  position: relative;
+  padding: 12px 30px;
+  margin: 10px 1px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  will-change: box-shadow, transform;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+
 .navbar-fixed-top {
   border-radius: 0;
 }
@@ -3198,10 +3228,11 @@ h2.title {
 }
 
 .card {
+
   display: inline-block;
   position: relative;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 1px;
   border-radius: 6px;
   color: rgba(0,0,0, 0.87);
   background: #fff;
@@ -3538,7 +3569,8 @@ h2.title {
 }
 
 .card-blog {
-  margin-top: 30px;
+  margin-top: 40px;
+  font-size:115em;
 }
 .card-blog .row .category {
   margin-bottom: 0;
@@ -4689,11 +4721,11 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 [class*="pricing-"],
 [class*="testimonials-"],
 [class*="contactus-"] {
-  padding: 80px 0;
+  padding: 80px 0 0 0;
 }
 
 .page-header {
-  height: 80vh;
+  height: 90vh;
   background-position: center center;
   background-size: cover;
   margin: 0;

@@ -18,9 +18,8 @@ html, body {
 ---------------------------------------------------------------------- */
 
 .controls-pagination {
-    padding: 1rem;
-    font-size: 0.1px;
     text-align: justify;
+    margin: auto;
 }
 
 .controls-pagination:after {
@@ -105,6 +104,7 @@ html, body {
 .mix, .gap {
     display: inline-block;
     vertical-align: top;
+    font-size: 0.1px;
 }
 
 .mix {
@@ -160,10 +160,23 @@ html, body {
 
 /* 6 Columns */
 
-@media screen and (min-width: 1501px) {
+@media screen and (min-width: 1401px) {
     .mix,
     .gap {
         width: calc(100%/6 - (((6 - 1) * 1rem) / 6));
+    }
+
+    .mix.triangle:after {
+        font-size: 1vw;
+    }
+}
+
+/* 7 Columns */
+
+@media screen and (min-width: 1601px) {
+    .mix,
+    .gap {
+        width: calc(100%/7 - (((7 - 1) * 1rem) / 7));
     }
 
     .mix.triangle:after {
