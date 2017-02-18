@@ -768,6 +768,12 @@
 	<script>
 		var containerEl = document.querySelector('.mixitupcontainer');
 
+		function scrollToContainer() {
+    $('html, body').animate({
+        scrollTop: $('.mixitupcontainer').offset().top
+			}, 150);
+		}
+
 		var mixer = mixitup(containerEl, {
 			pagination: {
 				limit: 75
@@ -780,13 +786,15 @@
 			},
 			animation: {
 				animateResizeContainer: false // required to prevent column algorithm bug
-			}
+			},
+			callbacks: {
+        onMixEnd: scrollToContainer
+    },
 
 		});
 
-		$("img.lazy").lazyload({
-		  event: "scrollstop"
-		});
+
+
 
 	</script>
 
