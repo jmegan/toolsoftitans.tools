@@ -2228,7 +2228,6 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   line-height: 30px;
   color: #ffd401;
   padding: 10px 15px;
-  font-size:38px;
   
 }
 
@@ -2710,6 +2709,9 @@ border: none;
 .navbar-fixed-top {
   border-radius: 0;
 }
+
+
+
 @media (max-width: 1199px) {
   .navbar {
     /*
@@ -2721,12 +2723,14 @@ border: none;
   .navbar .navbar-brand {
     height: 50px;
     padding: 10px 15px;
+    
   }
   .navbar .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
   }
 }
+
 .navbar .alert {
   border-radius: 0;
   left: 0;
@@ -6619,6 +6623,28 @@ footer .pull-center {
     font-size: 3em;
   }
 
+  h1, 
+  .hero-title {
+    font-size: 4em;
+  }
+
+  h4,
+  .hero-subtitle {
+    font-size: 3em;
+  }
+  h2,
+  .h2 {
+    font-size:1.7em;
+  }
+
+  h4,
+  .h4 {
+    font-size: 1em;
+  }
+
+  .navbar-brand {
+    font-size: 1.8em;
+  }
   .presentation-page .pro-badge {
     font-size: 14px;
     margin-right: 0;
@@ -6631,4 +6657,26 @@ footer .pull-center {
   .subscribe-line .btn {
     margin-top: 15px;
   }
+
+  .h2 {
+    font-size:2em;
+  }
+
+  .img-totbook {
+    max-height: 180px;
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar-brand {
+    font-size:2.5em;
+  }
+
+
+}
+
+@media (min-width: 768px max-width: 991px) {
+  .img-totbook {
+    max-height: 250px;
+    } 
 }
