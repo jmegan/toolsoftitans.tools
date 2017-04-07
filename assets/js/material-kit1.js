@@ -69,19 +69,20 @@ materialKit = {
     },
 
     checkScrollForTransparentNavbar: debounce(function() {
-            if($(document).scrollTop() > 260 ) {
+            if($(document).scrollTop() > 300 ) {
                 if(transparent) {
                     transparent = false;
-                    $('.navbar-color-on-scroll').removeClass('navbar-transparent');
+                    $('.navbar-color-on-scroll').removeClass("navbar-transparent"); $('.navbar-color-on-scrollx').removeClass("navbar-grid-transparent");
                 }
             } else {
                 if( !transparent ) {
                     transparent = true;
-                    $('.navbar-color-on-scroll').addClass('navbar-transparent');
+                    $('.navbar-color-on-scroll').addClass("navbar-transparent"); $('.navbar-color-on-scrollx').addClass("navbar-grid-transparent");
                 }
             }
     }, 17),
 
+   
     initSliders: function(){
         // Sliders for demo purpose
         $('#sliderRegular').noUiSlider({
