@@ -2206,7 +2206,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 }
 
 .hero-title{
-  font-family: "Bernier", "Roboto", "Helvetica", "Arial", sans-serif;  
+  font-family: "Bernier", "Oswald", sans-serif;  
   font-weight:normal;
   color: #ffd401;
   font-size: 9.5em;
@@ -2215,7 +2215,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 }
 
 .hero-subtitle{
-  font-family: "Bernier", "Roboto", "Helvetica", "Arial", sans-serif;  
+  font-family: "Bernier", "Oswald", sans-serif;  
   font-weight:normal;
   color: #ffffff;
   font-size: 6em;
@@ -2232,7 +2232,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 }
 
 .navbar-brand {
-  font-family: "Bernier", "Roboto", "Helvetica", "Arial", sans-serif;  
+  font-family: "Bernier", "Oswald", sans-serif;  
   font-weight:normal;
 }
 .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
@@ -6442,7 +6442,7 @@ footer .pull-center {
   margin-top: 50px;
 }
 .product-page .related-products .title {
-  margin-bottom: 80px;
+  margin-bottom: 1px;
 }
 .product-page .features {
   padding-top: 30px;
@@ -6627,12 +6627,12 @@ footer .pull-center {
 
   h1, 
   .hero-title {
-    font-size: 4em;
+    font-size: 6em;
   }
 
   h4,
   .hero-subtitle {
-    font-size: 3em;
+    font-size: 3.5em;
   }
   h2,
   .h2 {
