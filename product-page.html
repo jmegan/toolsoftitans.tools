@@ -106,7 +106,7 @@
 		<!-- /.container-->
 	</nav>
 
-	<div class="page-header header-filter" data-parallax="active" filter-color="default" style="background-image: url('assets/img/bio-bg.jpg');">
+	<div class="page-header header-filter" data-parallax="active" filter-color="default">
 		<div class="container">
 			<div class="row title-row">
 
@@ -128,37 +128,79 @@
 						<h2 class="title">Tools of Titans</h2>
 						<div class="media">
 
-						<h3 class="category text-danger"><i class="material-icons">book</i>Book</h3>
+							<h3 class="category text-danger"><i class="material-icons">book</i>Book</h3>
 
-							<div class="media-object"><img src="assets/img/titansicons/timicon.jpeg" alt=". . ." class="avatar img-raised"></div>
-							<div class="stats"><i class="material-icons">find_in_page</i> pg. I</div>
-						<div class="pull-left">
-						
-							<div class="avatar">
-								<img class="media-object" src="assets/img/titans/tim_ferriss.jpg" alt="..."/>
+							<div id="acordeon">
+								<div class="panel-group" id="accordion">
+									<div class="panel panel-border panel-default">
+										<div class="panel-heading" role="tab" id="headingOne">
+											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												<h4 class="panel-title">
+	                                    Description
+	                                    <i class="material-icons">keyboard_arrow_down</i>
+	                                    </h4>
+											</a>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse in">
+											<div class="panel-body">
+												Eres' daring 'Grigri Fortune' swimsuit has the fit and coverage of a bikini in a one-piece silhouette. This fuchsia style is crafted from the label's sculpting peau douce fabric and has flattering cutouts through the torso and back. Wear yours
+													with mirrored sunglasses on vacation.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-border panel-default">
+										<div class="panel-heading" role="tab" id="headingOne">
+											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-controls="collapseOne">
+												<h4 class="panel-title">
+	                                    Recommended by
+	                                    <i class="material-icons">keyboard_arrow_down</i>
+	                                    </h4>
+											</a>
+										</div>
+										<div id="collapseTwo" class="panel-collapse collapse">
+											<div class="panel-body">
+												<div class="col-md-12">
+													<div class="card card-profile card-plain">
+														<div class="avatar"><img class="img" alt="Scott" src="assets/img/titans/8UhFDcjT_400x400.jpg"></div>
+														<div class="content">
+															<h4 class="card-title">Scott Adams</h4></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-border panel-default">
+										<div class="panel-heading" role="tab" id="headingOne">
+											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-controls="collapseOne">
+												<h4 class="panel-title">
+	                                    Book Location
+	                                    <i class="material-icons">keyboard_arrow_down</i>
+	                                    </h4>
+											</a>
+										</div>
+										<div id="collapseThree" class="panel-collapse collapse">
+											<div class="panel-body">
+
+												<h6><i class="material-icons">find_in_page</i>Page 1</h6>
+
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
+							<!--  end acordeon -->
 						</div>
-						</a>
-						<div class="media-body">
-							<h4 class="media-heading">Tim Ferriss<small>&middot; Author</small></h4>
-							<h6 class="text-muted"></h6>
-
-
-
-
-
 						<div class="row text-right">
 							<button class="btn btn-danger btn-round">Amazon &nbsp;<i class="material-icons">shopping_cart</i></button>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 
-
-
-			<div class="related-products">
-				<h3 class="title text-center">You may also be interested in:</h3>
-
+		<div class="related-products">
+			<h3 class="title text-center">You may also be interested in:</h3>
 
 
 				<div class="row">
@@ -180,51 +222,48 @@
 
 				</div>
 
-			</div>
 		</div>
-	</div>
 
-
-	<footer class="footer">
-		<div class="container">
-			<nav class="pull-left">
-				<ul>
-					<li>
-						<a href="/">
+		<footer class="footer">
+			<div class="container">
+				<nav class="pull-left">
+					<ul>
+						<li>
+							<a href="/">
 						Tools
 					</a>
-					</li>
-					<li>
-						<a href="titans.html">
+						</li>
+						<li>
+							<a href="titans.html">
 						 Titans
 					</a>
-					</li>
-					<li>
-						<a href="about.html">
+						</li>
+						<li>
+							<a href="about.html">
 						 ABOUT
 					</a>
-					</li>
-					<li>
-						<a href="http://amzn.to/2jBnmux" target="blank">
+						</li>
+						<li>
+							<a href="http://amzn.to/2jBnmux" target="blank">
 						Buy The Book
 					</a>
-					</li>
-					<li>
-						<a href="http://tim.blog/" target="blank">
+						</li>
+						<li>
+							<a href="http://tim.blog/" target="blank">
 						Visit Tim's Website
 					</a>
-					</li>
+						</li>
 
-				</ul>
-			</nav>
-			<div class="copyright pull-right">
-				&copy;
-				<script>
-					document.write(new Date().getFullYear())
-				</script>, made with <i class="fa fa-heart heart"></i> by <a href="https://www.twitter.com/john_m_egan" target="blank">@John_M_Egan</a>
+					</ul>
+				</nav>
+				<div class="copyright pull-right">
+					&copy;
+					<script>
+						document.write(new Date().getFullYear())
+					</script>, made with <i class="fa fa-heart heart"></i> by <a href="https://www.twitter.com/john_m_egan" target="blank">@John_M_Egan</a>
+				</div>
 			</div>
-		</div>
-	</footer>
+		</footer>
 
 </body>
 <!--   Core JS Files   -->

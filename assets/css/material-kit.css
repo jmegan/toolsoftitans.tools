@@ -3888,11 +3888,10 @@ hr.on-light {
 
 .media .avatar {
   margin: 0 auto;
-  width: 64px;
-  height: 64px;
+  width: 90px;
+  height: 90px;
   overflow: hidden;
   border-radius: 50%;
-  margin-right: 15px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
 }
 .media .avatar img {
@@ -6375,6 +6374,7 @@ footer .pull-center {
 .product-page .page-header {
   height: 60vh;
   background-position: top center;
+  background-image: url("../img/bio-bg.jpg");
 }
 .product-page .page-header .container {
   padding-top: 18vh;
